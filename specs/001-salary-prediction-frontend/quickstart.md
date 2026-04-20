@@ -78,6 +78,7 @@ api_url = "https://zjgilliam-flask-prediction.azurewebsites.net/predict"
   - `AZUREAPPSERVICE_PUBLISHPROFILE_<FRONTEND_ID>` — download from Azure portal for the new frontend app
 
 ### Deploy backend
+small change
 
 1. Ensure `backend/` contains `app.py`, `wsgi.py`, `web.config`, `requirements.txt`, `salary_predict_model.pkl`
 2. Push to `main` branch — `deploy-backend.yml` triggers on `paths: ['backend/**']`
