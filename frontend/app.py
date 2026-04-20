@@ -8,7 +8,7 @@ CORS(app)
 
 # Change this to the Azure backend URL before deploying to Azure:
 # api_url = "https://zjgilliam-flask-prediction.azurewebsites.net/predict"
-api_url = "http://localhost:5002/predict"
+api_url = "https://zjgilliam-flask-prediction-hghtdze8czd8hxcz.eastus-01.azurewebsites.net/"
 
 
 @app.route("/")

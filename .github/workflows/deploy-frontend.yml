@@ -61,4 +61,4 @@ jobs:
           slot-name: 'Production'
           # Add the frontend publish profile secret from Azure portal:
           # Settings → Publish Profile → Download → add as AZUREAPPSERVICE_PUBLISHPROFILE_FRONTEND
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FRONTEND }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8DBDF54D58D44264A6D920B75DBB1312 }}
