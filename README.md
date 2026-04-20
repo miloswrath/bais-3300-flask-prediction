@@ -32,6 +32,8 @@ The idea for this project came from [Predicting Year of Marriage - End to End Ma
 
    Example: `flask --app app run --port 8080 --debug `
 
+For production hosting, the repository now exposes the Flask app through `wsgi.py` so a WSGI server can start it with `gunicorn wsgi:app`.
+
 ## API endpoints
 
 **/**  
