@@ -70,3 +70,4 @@ jobs:
           app-name: 'zjgilliam-flask-prediction'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6241F5B1D7FB4D65BF7497FFE5BD7903 }}
+          startup-command: 'gunicorn --bind=0.0.0.0:$PORT --timeout 600 wsgi:app'

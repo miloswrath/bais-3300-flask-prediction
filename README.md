@@ -32,7 +32,8 @@ The idea for this project came from [Predicting Year of Marriage - End to End Ma
 
    Example: `flask --app app run --port 8080 --debug `
 
-For Azure App Service on Windows, the repository exposes the Flask app through `app.app` in `web.config`.
+For Azure App Service on Linux, use the startup command `gunicorn --bind=0.0.0.0:$PORT --timeout 600 wsgi:app`.
+The included `web.config` is only relevant for Azure App Service on Windows.
 
 ## API endpoints
 
