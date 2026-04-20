@@ -1,4 +1,4 @@
-name: Build and deploy frontend to Azure Web App - zjgilliam-flask-frontend
+name: Build and deploy frontend to Azure Web App - zjgilliam-frontend
 
 on:
   push:
@@ -57,7 +57,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'zjgilliam-flask-frontend'
+          app-name: 'zjgilliam-frontend'
           slot-name: 'Production'
           # Add the frontend publish profile secret from Azure portal:
           # Settings → Publish Profile → Download → add as AZUREAPPSERVICE_PUBLISHPROFILE_FRONTEND
